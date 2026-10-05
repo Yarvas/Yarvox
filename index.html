@@ -31,7 +31,6 @@
             overflow: hidden;
         }
 
-        /* Responsive Sidebar */
         .sidebar {
             width: 260px;
             min-width: 260px;
@@ -97,7 +96,6 @@
             box-shadow: 0 0 8px #10b981;
         }
 
-        /* Fluid Main Window Layout */
         .chat-container {
             flex: 1;
             display: flex;
@@ -186,7 +184,6 @@
             text-align: right;
         }
 
-        /* Search Process Animation */
         .search-process {
             background: rgba(27, 27, 38, 0.6);
             border-left: 3px solid #3b82f6;
@@ -220,7 +217,6 @@
             to { transform: rotate(360deg); }
         }
 
-        /* Safe Bottom Control Pad */
         .input-area {
             padding: 16px 24px;
             background-color: var(--bg-primary);
@@ -338,7 +334,6 @@
             </div>
         </div>
 
-        <!-- Correctly Locked Input Footer -->
         <div class="input-area">
             <div class="suggestion-chips">
                 <div class="chip" onclick="useSuggestion('Why are TikTok algorithms so hard to escape?')">TikTok Design</div>
@@ -349,5 +344,8 @@
                 <button class="send-btn" onclick="processUserQuery()">Query</button>
             </div>
         </div>
+    </div>
 
-    
+    <script>
+        const knowledgeBase = {
+
